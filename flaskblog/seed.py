@@ -1,4 +1,4 @@
-from flask_blog import app, db, User
+from flaskblog import app, db, User
 
 with app.app_context():
     user_1 = User(username="deva",email="deva@gmail.com",password="salaar")
